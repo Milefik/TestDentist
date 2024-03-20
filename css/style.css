@@ -1,0 +1,11 @@
+/* 
+// <uniquifier>: Use a unique and descriptive class name - описание класса
+// <weight>: Use a value from 200 to 800
+
+.manrope-<uniquifier> {
+	font-family: "Manrope", sans-serif;
+	font-optical-sizing: auto;
+	font-weight: <weight>;
+	font-style: normal;
+} 
+*/
