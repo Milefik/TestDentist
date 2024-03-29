@@ -26,6 +26,7 @@ body {
 	font-optical-sizing: auto;
 	font-weight: 400;
 	font-style: normal;
+	color: var(--black-color);
 	background-image: url(../images/first-screen-bg.jpg);
 	background-repeat: no-repeat;
 	background-size: 100%;
@@ -87,7 +88,6 @@ button {
 .header__title {
 	max-width: 200px;
 	font-size: 14px;
-	color: var(--black-color);
 	padding-left: 23px;
 	position: relative;
 	display: inline-block;
@@ -129,7 +129,6 @@ button {
 .header__street {
 	width: 115px;
 	font-size: 14px;
-	color: var(--black-color);
 }
 
 .header__phone {
@@ -166,7 +165,7 @@ button {
 	font-weight: 700;
 }
 
-.red {
+.text-red {
 	color: var(--accent-color);
 }
 
@@ -204,7 +203,6 @@ button {
 	font-weight: 800;
 	font-size: 55px;
 	line-height: 127%;
-	color: var(--black-color);
 	margin-top: 80px;
 	max-width: min-content;
 	text-transform: uppercase;
@@ -254,7 +252,6 @@ button {
 	margin-right: 11px;
 	font-weight: 700;
 	font-size: 16px;
-	color: var(--accent-color);
 }
 
 .main__icon-bg {
@@ -296,7 +293,6 @@ button {
 	font-weight: 500;
 	font-size: 18px;
 	line-height: 156%;
-	color: var(--black-color);
 	width: 190px;
 }
 
@@ -324,7 +320,6 @@ button {
 	font-weight: 800;
 	font-size: 35px;
 	line-height: 200%;
-	color: var(--accent-color);
 	margin-top: 36px;
 }
 
@@ -356,7 +351,6 @@ button {
 .main__rating-text {
 	font-weight: 600;
 	font-size: 19px;
-	color: var(--black-color);
 	width: 102px;
 }
 
@@ -367,7 +361,6 @@ button {
 .main__text {
 	font-size: 18px;
 	line-height: 150%;
-	color: var(--black-color);
 	max-width: 420px;
 	margin-bottom: 27px;
 }
@@ -377,18 +370,18 @@ button {
 }
 
 .main__button {
-	font-family: "Manrope", sans-serif;
-	font-optical-sizing: auto;
-	font-style: normal;
-	font-weight: 600;
 	font-size: 18px;
-	color: var(--white-color);
 	width: 292px;
 	height: 80px;
 	margin-bottom: 51.5px;
 }
 
 .button--red {
+	font-family: "Manrope", sans-serif;
+	font-optical-sizing: auto;
+	font-style: normal;
+	font-weight: 600;
+	color: var(--white-color);
 	border-radius: 1000px;
 	box-shadow: inset 0 0 27px 4px rgba(255, 255, 255, 0.46);
 	background: var(--accent-color);
@@ -424,13 +417,11 @@ button {
 .main__h3-teeth {
 	font-weight: 600;
 	font-size: 18px;
-	color: var(--black-color);
 	margin-bottom: 8px;
 }
 
 .main__p-teeth {
 	font-size: 13px;
-	color: var(--black-color);
 	margin-bottom: 5px;
 	width: 283px;
 }
@@ -460,25 +451,24 @@ button {
 	margin-bottom: 104px;
 }
 
-.services__container {
+.services__title-container {
+	width: 143px;
+	height: 44px;
+	margin-bottom: 20px;
 }
 
-.services__title-container {
+.title-container {
 	display: flex;
 	align-items: center;
 	justify-content: center;
 	border-radius: 351px;
-	width: 143px;
-	height: 44px;
 	box-shadow: 0 15px 59px 0 rgba(0, 0, 0, 0.08);
 	background: var(--white-color);
-	margin-bottom: 20px;
 }
 
 .services__title {
 	font-weight: 500;
 	font-size: 14px;
-	color: var(--accent-color);
 }
 
 .services__h2 {
@@ -486,7 +476,6 @@ button {
 	font-size: 30px;
 	line-height: 133%;
 	text-transform: uppercase;
-	color: var(--black-color);
 	max-width: 905px;
 	margin-bottom: 55px;
 }
@@ -539,9 +528,6 @@ button {
 	border-radius: 10px 10px 0 0;
 }
 
-.services__img {
-}
-
 .services__text-container {
 	box-shadow: 0 14px 66px 0 rgba(0, 0, 0, 0.1);
 	background: var(--white-color);
@@ -552,13 +538,11 @@ button {
 .services__h3 {
 	font-weight: 500;
 	font-size: 18px;
-	color: var(--black-color);
 	margin-bottom: 10px;
 }
 
 .services__text {
 	font-size: 13px;
-	color: var(--black-color);
 	margin-bottom: 21px;
 }
 
@@ -568,10 +552,99 @@ button {
 }
 
 .services__button {
-	font-weight: 600;
 	font-size: 14px;
-	color: var(--white-color);
 	width: 146px;
 	height: 39px;
 	margin-right: 17px;
+}
+
+.about__container {
+	position: relative;
+	display: flex;
+}
+
+.about__star-name {
+	position: absolute;
+	left: -12px;
+	top: 25px;
+}
+
+.about__name {
+	font-size: 55px;
+	line-height: 105%;
+	margin: 33px 0 20px 0;
+	width: min-content;
+}
+
+.about__name--600 {
+	font-weight: 600;
+}
+
+.about__name-p {
+	font-weight: 500;
+	font-size: 18px;
+	margin-bottom: 34px;
+}
+
+.about__button {
+	font-size: 16px;
+	width: 252px;
+	height: 69px;
+}
+
+.about__doc-img {
+	position: absolute;
+	z-index: -1;
+	left: 165px;
+}
+
+.about__text-container {
+	position: absolute;
+	right: 32px;
+}
+
+.about__title-container {
+	width: 143px;
+	height: 44px;
+	margin: 3px 0 19px 0;
+}
+
+.about__title {
+	font-weight: 500;
+	font-size: 14px;
+}
+
+.about__star {
+	position: absolute;
+	left: -14px;
+	top: 61px;
+}
+
+.about__h2 {
+	font-weight: 800;
+	font-size: 30px;
+	line-height: 133%;
+	text-transform: uppercase;
+	margin-bottom: 13px;
+	max-width: 431px;
+}
+
+.about__p-container {
+	font-size: 16px;
+	line-height: 150%;
+	max-width: 458px;
+	margin-left: 99px;
+}
+
+.about__p--600 {
+	font-weight: 600;
+	margin-bottom: 24px;
+}
+
+.about__signature {
+	position: absolute;
+	bottom: -68px;
+	right: 143px;
+	width: 123px;
+	height: 96px;
 }
