@@ -658,7 +658,7 @@ button {
 	max-width: 1500px;
 	max-height: 998px;
 	background: #f5f5f5;
-	margin: 0 auto;
+	margin: 0 auto 50px auto;
 	padding: 50px 149px;
 }
 
@@ -802,3 +802,151 @@ button {
 	color: var(--white-color);
 	margin: 706px auto 0 auto;
 }
+
+.principles__container {
+	position: relative;
+	display: flex;
+}
+
+.principles__images-container {
+	position: absolute;
+	background-image: url(../images/principles-bg.svg);
+	background-repeat: no-repeat;
+	width: 1350px;
+	height: 1379px;
+	top: -313px;
+	left: -450px;
+	z-index: -1;
+}
+
+.principles__img {
+	position: absolute;
+	width: 566px;
+	height: 655px;
+	left: 407px;
+	top: 324px;
+}
+
+.principles__star {
+	position: absolute;
+	width: 79px;
+	height: 72px;
+	transform: rotate(10deg);
+	top: 342px;
+	left: 321px;
+}
+
+.principles__star--blur {
+	position: absolute;
+	width: 79px;
+	height: 72px;
+	filter: blur(2px);
+	transform: rotate(10deg);
+	top: 522px;
+	left: 911px;
+}
+
+.principles__star-big--blur {
+	position: absolute;
+	width: 150px;
+	height: 136px;
+	filter: blur(5px);
+	transform: rotate(256deg);
+	top: 860px;
+	left: 326px;
+}
+
+.principles__text {
+	position: relative;
+	max-width: 575px;
+	margin: 0 15px 0 auto;
+}
+
+.principles__star--rotate {
+	position: absolute;
+	width: 30px;
+	height: 27px;
+	transform: rotate(10deg);
+	right: 53px;
+	top: 16px;
+}
+
+.principles__title-container {
+	width: 177px;
+	height: 46px;
+	margin-bottom: 20px;
+}
+
+.principles__title {
+	font-weight: 500;
+	font-size: 14px;
+}
+
+.principles__h2 {
+	font-weight: 400;
+	font-size: 30px;
+	text-transform: uppercase;
+	margin-bottom: 30px;
+}
+
+.principles__h2--700 {
+	font-weight: 700;
+}
+
+.principles__items {
+	margin-left: 100px;
+}
+
+.principles__item {
+	display: flex;
+	align-items: center;
+	border-radius: 11px;
+	max-width: 400px;
+	height: 80px;
+	box-shadow: 0 15px 59px 0 rgba(0, 0, 0, 0.08);
+	background: var(--white-color);
+	margin-bottom: 20px;
+	padding: 10px 20px;
+}
+
+.principles__icon-container {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 60px;
+	height: 60px;
+	border-radius: 100%;
+	background-color: rgba(245, 245, 245, 0.6);
+	margin-right: 20px;
+}
+
+.principles__icon {
+	width: 29px;
+	height: 30px;
+}
+
+.principles__p {
+	font-size: 11px;
+	max-width: 275px;
+}
+
+.principles__p--700 {
+	font-weight: 700;
+}
+
+.principles__button {
+	font-size: 18px;
+	width: 292px;
+	height: 80px;
+	margin-top: 9px;
+}
+
+.principles__star-big--rotate {
+	position: absolute;
+	width: 52px;
+	height: 48px;
+	transform: rotate(147deg);
+	right: 150px;
+	top: 673px;
+}
+
