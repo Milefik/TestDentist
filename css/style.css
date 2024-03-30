@@ -558,6 +558,10 @@ button {
 	margin-right: 17px;
 }
 
+.about {
+	margin-bottom: 190px;
+}
+
 .about__container {
 	position: relative;
 	display: flex;
@@ -647,4 +651,154 @@ button {
 	right: 143px;
 	width: 123px;
 	height: 96px;
+}
+
+.experts {
+	border-radius: 50px;
+	max-width: 1500px;
+	max-height: 998px;
+	background: #f5f5f5;
+	margin: 0 auto;
+	padding: 50px 149px;
+}
+
+.experts__container {
+	position: relative;
+}
+
+.experts__header {
+	position: relative;
+	display: flex;
+	justify-content: space-between;
+	align-items: flex-end;
+	margin-bottom: 50px;
+}
+
+.experts__title-h2 {
+	margin-left: 1px;
+}
+
+.experts__title-container {
+	width: 177px;
+	height: 46px;
+	margin-bottom: 12px;
+}
+
+.experts__title {
+	font-weight: 500;
+	font-size: 14px;
+}
+
+.experts__h2 {
+	font-weight: 400;
+	font-size: 30px;
+	line-height: 133%;
+	text-transform: uppercase;
+}
+
+.experts__h2--800 {
+	font-weight: 800;
+}
+
+.experts__star {
+	position: absolute;
+	top: 15px;
+	right: 411px;
+}
+
+.experts__p {
+	font-size: 18px;
+	line-height: 150%;
+	max-width: 411px;
+}
+
+.experts__p--700 {
+	font-weight: 700;
+}
+
+.experts__items {
+	position: absolute;
+	display: flex;
+	margin-bottom: 50px;
+	left: -32px;
+}
+
+.experts__item {
+	border-radius: 10px;
+	width: 384px;
+	max-height: 606px;
+	background-color: var(--white-color);
+	margin-right: 25px;
+	padding: 35px 31px;
+}
+
+.experts__item:last-child {
+	margin-right: 0;
+}
+
+.experts__img {
+	width: 322px;
+	height: 323px;
+	margin-bottom: 20px;
+}
+
+.experts__text {
+	margin-left: 11px;
+}
+
+.experts__h3 {
+	font-weight: 500;
+	font-size: 18px;
+	margin-bottom: 15px;
+}
+
+.experts__p-item {
+	font-size: 14px;
+	margin-bottom: 15px;
+}
+
+.experts__p--opacity {
+	max-width: 264px;
+	font-size: 14px;
+	opacity: 0.6;
+	margin-bottom: 13px;
+}
+
+.experts__button-item {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	font-family: "Manrope", sans-serif;
+	font-optical-sizing: auto;
+	font-style: normal;
+	font-weight: 600;
+	font-size: 14px;
+	border: 1px solid #e21f4d;
+	border-radius: 1000px;
+	width: 161px;
+	height: 50px;
+	background-color: transparent;
+}
+
+.experts__arrow {
+	margin-left: 11px;
+	width: 13px;
+	height: 14px;
+}
+
+.experts__button {
+	display: block;
+	font-family: "Manrope", sans-serif;
+	font-optical-sizing: auto;
+	font-style: normal;
+	font-weight: 500;
+	font-size: 16px;
+	border-radius: 1000px;
+	width: 195px;
+	height: 54px;
+	box-shadow: inset 0 0 27px 4px rgba(255, 255, 255, 0.25);
+	background: var(--accent-color);
+	opacity: 0.8;
+	color: var(--white-color);
+	margin: 706px auto 0 auto;
 }
